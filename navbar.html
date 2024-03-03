@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Navbar</title>
+<style>
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Navbar styles */
+    .navbar {
+        background-color: #333;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 0 10px;
+        padding: 8px 12px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+    
+    .navbar a:hover {
+        background-color: #555;
+    }
+    
+    .search-container {
+        display: flex;
+        align-items: center;
+        margin-right: 20px; /* Adjust margin-right for spacing */
+    }
+    
+    .search-container input[type=text] {
+        padding: 8px 10px;
+        border-radius: 4px;
+        border: none;
+        margin-right: 5px;
+    }
+    
+    .search-container button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    /* Profile image styles */
+    .profile-container {
+        position: relative;
+        margin-right: 10px; /* Adjust margin-right for spacing */
+    }
+    
+    .profile-container img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    /* Dropdown styles */
+    .dropdown {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        border-radius: 4px;
+        display: none;
+    }
+    
+    .dropdown a {
+        color: black;
+        padding: 10px 20px;
+        display: block;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+    
+    .dropdown a:hover {
+        background-color: #ddd;
+    }
+    
+    .profile-container:hover .dropdown {
+        display: block;
+    }
+</style>
+</head>
+<body>
+  <div class="navbar">
+      <div>
+          <a href="home.html">Home</a>
+          <a href="problem_list.html">Problems</a>
+          <a href="add_problem.html">Add Problem</a>
+      </div>
+      <div class="search-container">
+        <form action="search.html">
+          <input type="text" placeholder="Search..." name="search">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      
+      <div class="profile-container">
+          <img src="image/icon_1.avif" alt="Profile">
+          <div class="dropdown">
+              <a href="profile.html">Profile</a>
+              <a href="welcome.html">Logout</a>
+          </div>
+      </div>
+  </div>
+</body>
+</html>

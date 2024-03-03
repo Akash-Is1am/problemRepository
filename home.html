@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: blueviolet;
+        }
+
+        .welcome-message {
+            font-size: 5vw; /* Adjust the font size relative to the viewport width */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0); /* Add a semi-transparent background */
+            z-index: 9999; /* Ensure it's on top of everything */
+            flex-direction: column; /* Align items in a column */
+        }
+
+        .welcome-line {
+            margin: 5px 0; /* Add some spacing between lines */
+        }
+
+        #navbar-container {
+            z-index: 10000; /* Ensure navbar is above welcome message */
+            background-color: white; /* Set a solid background color */
+            width: 100%; /* Ensure navbar stretches across the whole width */
+            position: fixed; /* Make sure it stays at the top */
+            top: 0; /* Position it at the top */
+        }
+
+    </style>
+</head>
+<body>
+    <div id="navbar-container"></div> <!-- This is where the navbar will be inserted -->
+
+    <div class="welcome-message">
+        <div class="welcome-line">Welcome to the</div>
+        <div class="welcome-line">Problem Repository and</div>
+        <div class="welcome-line">Recommendation System</div>
+    </div>
+
+    <script>
+        // Fetch and insert the navbar content
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('navbar-container').innerHTML = html;
+            })
+            .catch(error => console.error('Error fetching navbar:', error));
+    </script>
+</body>
+</html>

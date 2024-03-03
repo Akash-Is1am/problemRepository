@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem List</title>
+    <style>
+        .container {
+            padding: 20px; /* Add padding to the container */
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .problem-link {
+            color: #000; /* Set the color of the problem link to black */
+            text-decoration: none; /* Remove underline */
+        }
+
+        .problem-link:hover {
+            color: #333; /* Change hover color to a slightly darker shade */
+        }
+
+        /* Adjust column width */
+        th:nth-child(2), td:nth-child(2),
+        th:nth-child(5), td:nth-child(5) {
+            width: 40%; /* Set width for problem number column */
+        }
+
+        th:nth-child(3), td:nth-child(3),
+        th:nth-child(4), td:nth-child(4) {
+            width: 10%; /* Set width for name, platform, level, and tags columns */
+        }
+
+        /* Right align text in tags column */
+        td:nth-child(3), td:nth-child(4), td:nth-child(5) {
+            text-align: center;
+        }
+        th:nth-child(3), th:nth-child(4), th:nth-child(5) {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="navbar-container"></div> <!-- This is where the navbar will be inserted -->
+
+    <div class="container">
+        <h1>Programming Problems</h1>
+        <br>
+        <table id="problems-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Platform</th>
+                    <th>Level</th>
+                    <th>Tags</th>
+                </tr>
+            </thead>
+            <tbody id="problems-list"></tbody>
+        </table>
+    </div>
+
+    <script>
+        // Fetch the JSON data
+        fetch('problems.json')
+            .then(response => response.json())
+            .then(problems => {
+                const problemsList = document.getElementById('problems-list');
+
+                // Loop through each problem and create table rows
+                problems.forEach((problem, index) => {
+                    const row = document.createElement('tr');
+
+                    // Problem number column
+                    const numberCell = document.createElement('td');
+                    numberCell.textContent = index + 1;
+                    row.appendChild(numberCell);
+                    
+                    // Name column
+                    const nameCell = document.createElement('td');
+                    const problemLink = document.createElement('a');
+                    problemLink.textContent = problem.name;
+                    problemLink.href = problem.link;
+                    problemLink.classList.add('problem-link');
+                    nameCell.appendChild(problemLink);
+                    row.appendChild(nameCell);
+
+                    // Platform column
+                    const platformCell = document.createElement('td');
+                    platformCell.textContent = problem.platforms.join(', ');
+                    row.appendChild(platformCell);
+
+                    // Level column
+                    const levelCell = document.createElement('td');
+                    levelCell.textContent = problem.level;
+                    row.appendChild(levelCell);
+
+                    // Tags column
+                    const tagsCell = document.createElement('td');
+                    tagsCell.textContent = problem.tags.join(', ');
+                    row.appendChild(tagsCell);
+
+                    problemsList.appendChild(row);
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching JSON:', error);
+            });
+    </script>
+
+    <script>
+        // Fetch and insert the navbar content
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('navbar-container').innerHTML = html;
+            })
+            .catch(error => console.error('Error fetching navbar:', error));
+    </script>
+</body>
+</html>

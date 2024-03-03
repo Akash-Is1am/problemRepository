@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <style>
+        .container {
+            padding: 20px; /* Add padding to the container */
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0; /* Remove default margin */
+        }
+
+        li {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        li:nth-child(even) {
+            background-color: #eaeaea;
+        }
+
+        .problem-number {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .problem-link {
+            color: #000; /* Set the color of the problem link to black */
+            text-decoration: none; /* Remove underline */
+        }
+
+        .problem-link:hover {
+            color: #333; /* Change hover color to a slightly darker shade */
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar-container"></div> <!-- This is where the navbar will be inserted -->
+
+    <div class="container">
+        <h1>Search Results</h1>
+        <ul id="search-results"></ul>
+    </div>
+
+    <script>
+        // Get the search query parameter from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const searchQuery = urlParams.get('search');
+
+        // Fetch the JSON data
+        fetch('problems.json')
+            .then(response => response.json())
+            .then(problems => {
+                const searchResults = problems.filter(problem => problem.tags.includes(searchQuery));
+
+                const searchResultsList = document.getElementById('search-results');
+
+                // Loop through each search result and create list items
+                searchResults.forEach((problem, index) => {
+                    const listItem = document.createElement('li');
+                    const problemNumber = document.createElement('span');
+                    problemNumber.textContent = `${index + 1}. `;
+                    problemNumber.classList.add('problem-number');
+                    listItem.appendChild(problemNumber);
+                    // Create anchor tag for problem title
+                    const problemLink = document.createElement('a');
+                    problemLink.textContent = problem.name;
+                    problemLink.href = problem.link;
+                    problemLink.classList.add('problem-link');
+                    listItem.appendChild(problemLink);
+                    // Add tags after problem title
+                    listItem.insertAdjacentText('beforeend', ` - Tags: ${problem.tags.join(', ')}`);
+                    searchResultsList.appendChild(listItem);
+                });
+
+                if (searchResults.length === 0) {
+                    const noResultsMessage = document.createElement('li');
+                    noResultsMessage.textContent = 'No results found.';
+                    searchResultsList.appendChild(noResultsMessage);
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching JSON:', error);
+            });
+    </script>
+
+    <script>
+        // Fetch and insert the navbar content
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('navbar-container').innerHTML = html;
+            })
+            .catch(error => console.error('Error fetching navbar:', error));
+    </script>
+</body>
+</html>

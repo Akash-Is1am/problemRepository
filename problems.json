@@ -1,0 +1,2331 @@
+[
+  {
+    "name": "Fizz Buzz",
+    "tags": [
+      "Math"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/fizz-buzz/"
+  },
+  {
+    "name": "Reverse String",
+    "tags": [
+      "String"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/reverse-string/"
+  },
+  {
+    "name": "Valid Anagram",
+    "tags": [
+      "Hash Table",
+      "Sort"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/valid-anagram/"
+  },
+  {
+    "name": "Implement strStr()",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/implement-strstr/"
+  },
+  {
+    "name": "Palindrome Linked List",
+    "tags": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/palindrome-linked-list/"
+  },
+  {
+    "name": "Keyboard Row",
+    "tags": [
+      "Hash Table"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/keyboard-row/"
+  },
+  {
+    "name": "Sqrt(x)",
+    "tags": [
+      "Math",
+      "Binary Search"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/sqrtx/"
+  },
+  {
+    "name": "Valid Perfect Square",
+    "tags": [
+      "Math",
+      "Binary Search"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/valid-perfect-square/"
+  },
+  {
+    "name": "Count and Say",
+    "tags": [
+      "String"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/count-and-say/"
+  },
+  {
+    "name": "Valid Parentheses",
+    "tags": [
+      "String",
+      "Stack"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/valid-parentheses/"
+  },
+  {
+    "name": "Reverse Integer",
+    "tags": [
+      "Math"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/reverse-integer/"
+  },
+  {
+    "name": "Implement Queue using Stacks",
+    "tags": [
+      "Design",
+      "Stack"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/implement-queue-using-stacks/"
+  },
+  {
+    "name": "Move Zeroes",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/move-zeroes/"
+  },
+  {
+    "name": "First Unique Character in a String",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/first-unique-character-in-a-string/"
+  },
+  {
+    "name": "Maximum Subarray",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Divide and Conquer"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/maximum-subarray/"
+  },
+  {
+    "name": "Intersection of Two Arrays II",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/intersection-of-two-arrays-ii/"
+  },
+  {
+    "name": "Reverse Linked List",
+    "tags": [
+      "Linked List"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/reverse-linked-list/"
+  },
+  {
+    "name": "Power of Three",
+    "tags": [
+      "Math"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/power-of-three/"
+  },
+  {
+    "name": "Valid Sudoku",
+    "tags": [
+      "Hash Table"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/valid-sudoku/"
+  },
+  {
+    "name": "Merge Sorted Array",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/merge-sorted-array/"
+  },
+  {
+    "name": "Container With Most Water",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/container-with-most-water/"
+  },
+  {
+    "name": "3Sum",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/3sum/"
+  },
+  {
+    "name": "Longest Substring Without Repeating Characters",
+    "tags": [
+      "Hash Table",
+      "Two Pointers",
+      "String"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+  },
+  {
+    "name": "Merge Intervals",
+    "tags": [
+      "Array",
+      "Sort"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/merge-intervals/"
+  },
+  {
+    "name": "Group Anagrams",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/group-anagrams/"
+  },
+  {
+    "name": "Coin Change",
+    "tags": [
+      "Dynamic Programming"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/coin-change/"
+  },
+  {
+    "name": "Subarray Sum Equals K",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/subarray-sum-equals-k/"
+  },
+  {
+    "name": "Letter Combinations of a Phone Number",
+    "tags": [
+      "Backtracking",
+      "String"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+  },
+  {
+    "name": "Valid Sudoku",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/valid-sudoku/"
+  },
+  {
+    "name": "Minimum Path Sum",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/minimum-path-sum/"
+  },
+  {
+    "name": "Longest Palindromic Substring",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/longest-palindromic-substring/"
+  },
+  {
+    "name": "Search in Rotated Sorted Array",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+  },
+  {
+    "name": "Word Search",
+    "tags": [
+      "Backtracking"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/word-search/"
+  },
+  {
+    "name": "Course Schedule",
+    "tags": [
+      "Graph",
+      "Topological Sort"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/course-schedule/"
+  },
+  {
+    "name": "Combination Sum",
+    "tags": [
+      "Array",
+      "Backtracking"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/combination-sum/"
+  },
+  {
+    "name": "Permutations",
+    "tags": [
+      "Backtracking"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/permutations/"
+  },
+  {
+    "name": "Regular Expression Matching",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Hard",
+    "link": "https://leetcode.com/problems/regular-expression-matching/"
+  },
+  {
+    "name": "Longest Valid Parentheses",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Hard",
+    "link": "https://leetcode.com/problems/longest-valid-parentheses/"
+  },
+  {
+    "name": "Substring with Concatenation of All Words",
+    "tags": [
+      "Hash Table",
+      "Two Pointers",
+      "String"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Hard",
+    "link": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/"
+  },
+  {
+    "name": "Trapping Rain Water",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Stack"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Hard",
+    "link": "https://leetcode.com/problems/trapping-rain-water/"
+  },
+  {
+    "name": "Regular Expression Matching",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Hard",
+    "link": "https://leetcode.com/problems/regular-expression-matching/"
+  },
+  {
+    "name": "Longest Valid Parentheses",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Hard",
+    "link": "https://leetcode.com/problems/longest-valid-parentheses/"
+  },
+  {
+    "name": "Substring with Concatenation of All Words",
+    "tags": [
+      "Hash Table",
+      "Two Pointers",
+      "String"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Hard",
+    "link": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/"
+  },
+  {
+    "name": "Regular Expression Matching",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Hard",
+    "link": "https://leetcode.com/problems/regular-expression-matching/"
+  },
+  {
+    "name": "Substring with Concatenation of All Words",
+    "tags": [
+      "Hash Table",
+      "Two Pointers",
+      "String"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Hard",
+    "link": "https://leetcode.com/problems/substring-with-concatenation-of-all-words/"
+  },
+  {
+    "name": "Trapping Rain Water",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Stack"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Hard",
+    "link": "https://leetcode.com/problems/trapping-rain-water/"
+  },
+  {
+    "name": "Two Sum",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/two-sum/"
+  },
+  {
+    "name": "Add Two Numbers",
+    "tags": [
+      "Linked List",
+      "Math"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/add-two-numbers/"
+  },
+  {
+    "name": "Reverse Integer",
+    "tags": [
+      "Math"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Easy",
+    "link": "https://leetcode.com/problems/reverse-integer/"
+  },
+  {
+    "name": "Longest Substring Without Repeating Characters",
+    "tags": [
+      "Hash Table",
+      "Two Pointers",
+      "String"
+    ],
+    "platforms": [
+      "LeetCode"
+    ],
+    "level": "Medium",
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+  },
+  {
+    "name": "Sereja and Bottles",
+    "tags": [
+      "implementation",
+      "greedy"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/315/A"
+  },
+  {
+    "name": "Vasya and Digital Root",
+    "tags": [
+      "implementation",
+      "math"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/355/A"
+  },
+  {
+    "name": "Arpa's hard exam and Mehrdad's naive cheat",
+    "tags": [
+      "implementation",
+      "math"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/742/A"
+  },
+  {
+    "name": "Maximum Absurdity",
+    "tags": [
+      "data structures",
+      "dp"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/332/B"
+  },
+  {
+    "name": "Mocha and Hiking",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/1559/B"
+  },
+  {
+    "name": "Petr and a Combination Lock",
+    "tags": [
+      "bitmasks",
+      "dp"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/1097/B"
+  },
+  {
+    "name": "Concert",
+    "tags": [
+      "greedy",
+      "sortings"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/664/A"
+  },
+  {
+    "name": "Orac and LCM",
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/1027/B"
+  },
+  {
+    "name": "Alice, Bob and Chocolate",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/6/C"
+  },
+  {
+    "name": "Postcards and photos",
+    "tags": [
+      "implementation",
+      "strings"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/137/C"
+  },
+  {
+    "name": "Polycarp's Pockets",
+    "tags": [
+      "implementation",
+      "greedy"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/1003/B"
+  },
+  {
+    "name": "Subsequence Hate",
+    "tags": [
+      "brute force",
+      "implementation"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/1363/B"
+  },
+  {
+    "name": "Free Cash",
+    "tags": [
+      "implementation",
+      "sortings"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/237/A"
+  },
+  {
+    "name": "Nastya and a Game",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/992/B"
+  },
+  {
+    "name": "Coins",
+    "tags": [
+      "implementation",
+      "math"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/47/B"
+  },
+  {
+    "name": "Colorful Stones (Simplified Edition)",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/265/A"
+  },
+  {
+    "name": "Colorful Stones (hard version)",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/265/B"
+  },
+  {
+    "name": "Queue",
+    "tags": [
+      "data structures",
+      "implementation"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/545/D"
+  },
+  {
+    "name": "Wizards and Demonstration",
+    "tags": [
+      "implementation",
+      "math"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/168/A"
+  },
+  {
+    "name": "Game Outcome",
+    "tags": [
+      "implementation",
+      "math"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/157/A"
+  },
+  {
+    "name": "Vasya and Wrestling",
+    "tags": [
+      "implementation",
+      "greedy"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/493/B"
+  },
+  {
+    "name": "Jzzhu and Children",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "platforms": [
+      "Codeforces"
+    ],
+    "level": "Medium",
+    "link": "https://codeforces.com/problemset/problem/450/A"
+  },
+  {
+    "name": "Longest Increasing Subsequence",
+    "tags": [
+      "dynamic programming",
+      "binary search"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/dp/tasks/dp_z"
+  },
+  {
+    "name": "Shortest Path",
+    "tags": [
+      "graph",
+      "dijkstra"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc191/tasks/abc191_d"
+  },
+  {
+    "name": "Smallest Difference",
+    "tags": [
+      "greedy",
+      "sorting"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc186/tasks/abc186_b"
+  },
+  {
+    "name": "Digits Sum",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc186/tasks/abc186_a"
+  },
+  {
+    "name": "Shift Only",
+    "tags": [
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc081/tasks/abc081_b"
+  },
+  {
+    "name": "String Rotation",
+    "tags": [
+      "strings"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc103/tasks/abc103_b"
+  },
+  {
+    "name": "Collecting Balls (Easy Version)",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc074/tasks/abc074_b"
+  },
+  {
+    "name": "Shift Only (ABC)",
+    "tags": [
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc081/tasks/abc081_b"
+  },
+  {
+    "name": "Placing Marbles",
+    "tags": [
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc081/tasks/abc081_a"
+  },
+  {
+    "name": "Cakes and Donuts",
+    "tags": [
+      "brute force",
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc105/tasks/abc105_b"
+  },
+  {
+    "name": "Divisible Sum Pairs",
+    "tags": [
+      "implementation",
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc082/tasks/abc082_b"
+  },
+  {
+    "name": "Shift only",
+    "tags": [
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc081/tasks/arc086_a"
+  },
+  {
+    "name": "Minimization",
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc072/tasks/arc082_a"
+  },
+  {
+    "name": "Shiritori",
+    "tags": [
+      "implementation",
+      "strings"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc109/tasks/abc109_b"
+  },
+  {
+    "name": "Power Socket",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc139/tasks/abc139_c"
+  },
+  {
+    "name": "Circle Pond",
+    "tags": [
+      "math",
+      "geometry"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc163/tasks/abc163_a"
+  },
+  {
+    "name": "Product",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc086/tasks/abc086_a"
+  },
+  {
+    "name": "Multiple of 2 and N",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc102/tasks/abc102_a"
+  },
+  {
+    "name": "Right Triangle",
+    "tags": [
+      "geometry"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc116/tasks/abc116_a"
+  },
+  {
+    "name": "Placing Marbles",
+    "tags": [
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc081/tasks/arc084_a"
+  },
+  {
+    "name": "Multiplication 1",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc100/tasks/abc100_a"
+  },
+  {
+    "name": "Blue and Red Balls",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc158/tasks/abc158_b"
+  },
+  {
+    "name": "Round Up the Mean",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc082/tasks/abc082_a"
+  },
+  {
+    "name": "K- Multiple Free Set",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc096/tasks/abc096_b"
+  },
+  {
+    "name": "Twenty- Four",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc057/tasks/abc057_b"
+  },
+  {
+    "name": "Rounding",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc130/tasks/abc130_a"
+  },
+  {
+    "name": "Product",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc086/tasks/abc086_a"
+  },
+  {
+    "name": "Coins",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc087/tasks/abc087_b"
+  },
+  {
+    "name": "Shift Only (Hard Version)",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc081/tasks/arc086_a"
+  },
+  {
+    "name": "Ringo's Favorite Numbers",
+    "tags": [
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc083/tasks/abc083_b"
+  },
+  {
+    "name": "Counting Roads",
+    "tags": [
+      "graph",
+      "dfs"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc061/tasks/abc061_b"
+  },
+  {
+    "name": "Shift",
+    "tags": [
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc005/tasks/abc005_2"
+  },
+  {
+    "name": "Not",
+    "tags": [
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc096/tasks/abc096_a"
+  },
+  {
+    "name": "Base -2 Number",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc105/tasks/abc105_c"
+  },
+  {
+    "name": "Coins Respawn",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc088/tasks/abc088_b"
+  },
+  {
+    "name": "Yen Coin",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc087/tasks/arc089_a"
+  },
+  {
+    "name": "Citrus Juicer",
+    "tags": [
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc094/tasks/abc094_a"
+  },
+  {
+    "name": "Overlap",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc070/tasks/abc070_b"
+  },
+  {
+    "name": "Shift Only (Hard Version) 2",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc081/tasks/arc086_b"
+  },
+  {
+    "name": "Maximize the Formula",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc097/tasks/abc097_b"
+  },
+  {
+    "name": "Tap Dance",
+    "tags": [
+      "implementation",
+      "strings"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc141/tasks/abc141_b"
+  },
+  {
+    "name": "Shift and (Not) Shift",
+    "tags": [
+      "implementation",
+      "bit manipulation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc120/tasks/abc120_b"
+  },
+  {
+    "name": "Multiple of 2019",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc164/tasks/abc164_d"
+  },
+  {
+    "name": "Product Max",
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc180/tasks/abc180_b"
+  },
+  {
+    "name": "Changing a Character",
+    "tags": [
+      "strings"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc126/tasks/abc126_a"
+  },
+  {
+    "name": "Connecting Towns",
+    "tags": [
+      "combinatorics"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc052/tasks/abc052_b"
+  },
+  {
+    "name": "Uneven Numbers",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Easy",
+    "link": "https://atcoder.jp/contests/abc069/tasks/abc069_b"
+  },
+  {
+    "name": "Airplane",
+    "tags": [
+      "geometry"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc086/tasks/arc089_a"
+  },
+  {
+    "name": "Anzan",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc137/tasks/abc137_c"
+  },
+  {
+    "name": "Grid Coloring",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc096/tasks/abc096_c"
+  },
+  {
+    "name": "Differ by 1 Bit",
+    "tags": [
+      "bit manipulation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc121/tasks/abc121_c"
+  },
+  {
+    "name": "Crosswalk",
+    "tags": [
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc061/tasks/arc074_a"
+  },
+  {
+    "name": "Colorful Transceivers",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc157/tasks/abc157_c"
+  },
+  {
+    "name": "Sum of Divisors",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc172/tasks/abc172_c"
+  },
+  {
+    "name": "Splitting Pile",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc067/tasks/arc078_a"
+  },
+  {
+    "name": "HonestOrUnkind2",
+    "tags": [
+      "brute force"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc147/tasks/abc147_c"
+  },
+  {
+    "name": "Reversible Cards",
+    "tags": [
+      "combinatorics"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc145/tasks/abc145_c"
+  },
+  {
+    "name": "Handstand",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc124/tasks/abc124_c"
+  },
+  {
+    "name": "Sum Equals Xor",
+    "tags": [
+      "math",
+      "bit manipulation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc121/tasks/abc121_d"
+  },
+  {
+    "name": "Aab",
+    "tags": [
+      "strings"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc082/tasks/arc087_a"
+  },
+  {
+    "name": "GeT AC",
+    "tags": [
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc122/tasks/abc122_c"
+  },
+  {
+    "name": "Bowls and Dishes",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc134/tasks/abc134_c"
+  },
+  {
+    "name": "Naptime",
+    "tags": [
+      "dynamic programming"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc142/tasks/abc142_c"
+  },
+  {
+    "name": "Greed",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc160/tasks/abc160_c"
+  },
+  {
+    "name": "White and Black Balls",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc091/tasks/arc092_a"
+  },
+  {
+    "name": "Traveling Plan",
+    "tags": [
+      "graph",
+      "shortest path"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc183/tasks/abc183_d"
+  },
+  {
+    "name": "Lining Up",
+    "tags": [
+      "math",
+      "permutations"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc142/tasks/abc142_d"
+  },
+  {
+    "name": "Rounding",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc130/tasks/abc130_c"
+  },
+  {
+    "name": "Coloring Colorfully",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc124/tasks/abc124_d"
+  },
+  {
+    "name": "Revenge of Traveling Salesman",
+    "tags": [
+      "graph",
+      "bit manipulation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc180/tasks/abc180_e"
+  },
+  {
+    "name": "Blue and Red Balls",
+    "tags": [
+      "dp",
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc158/tasks/abc158_e"
+  },
+  {
+    "name": "Unification",
+    "tags": [
+      "strings"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc120/tasks/abc120_c"
+  },
+  {
+    "name": "Digit Sum 2",
+    "tags": [
+      "dp",
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc163/tasks/abc163_e"
+  },
+  {
+    "name": "Xor Distances",
+    "tags": [
+      "graphs",
+      "bit manipulation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc150/tasks/abc150_e"
+  },
+  {
+    "name": "Travel by Car",
+    "tags": [
+      "math",
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc180/tasks/abc180_c"
+  },
+  {
+    "name": "Takahashi's Information",
+    "tags": [
+      "math",
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc168/tasks/abc168_c"
+  },
+  {
+    "name": "Strings of Impurity",
+    "tags": [
+      "strings",
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc162/tasks/abc162_e"
+  },
+  {
+    "name": "Candles",
+    "tags": [
+      "math",
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc107/tasks/arc101_b"
+  },
+  {
+    "name": "Redistribution",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc064/tasks/abc064_c"
+  },
+  {
+    "name": "Grouping",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc099/tasks/abc099_c"
+  },
+  {
+    "name": "Cut and Count",
+    "tags": [
+      "strings",
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc141/tasks/abc141_c"
+  },
+  {
+    "name": "Replacing",
+    "tags": [
+      "strings",
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc054/tasks/abc054_c"
+  },
+  {
+    "name": "Remainder Reminder",
+    "tags": [
+      "math",
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc109/tasks/abc109_c"
+  },
+  {
+    "name": "Candidates of No Shortest Paths",
+    "tags": [
+      "graph",
+      "dfs",
+      "bfs"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc070/tasks/abc070_c"
+  },
+  {
+    "name": "Travel by Car 2",
+    "tags": [
+      "math",
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc180/tasks/abc180_d"
+  },
+  {
+    "name": "Fourtune Cookies",
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc148/tasks/abc148_d"
+  },
+  {
+    "name": "Slimes",
+    "tags": [
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc137/tasks/abc137_d"
+  },
+  {
+    "name": "Reversible Cards 2",
+    "tags": [
+      "combinatorics",
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Medium",
+    "link": "https://atcoder.jp/contests/abc147/tasks/abc147_d"
+  },
+  {
+    "name": "Candy Distribution Again",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc105/tasks/abc105_d"
+  },
+  {
+    "name": "String Coloring",
+    "tags": [
+      "strings"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc124/tasks/abc124_e"
+  },
+  {
+    "name": "Typical Stairs",
+    "tags": [
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc129/tasks/abc129_c"
+  },
+  {
+    "name": "Zegoban",
+    "tags": [
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc140/tasks/abc140_c"
+  },
+  {
+    "name": "Lower",
+    "tags": [
+      "binary search",
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc117/tasks/abc117_d"
+  },
+  {
+    "name": "Obentobun",
+    "tags": [
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc050/tasks/arc066_b"
+  },
+  {
+    "name": "Matching",
+    "tags": [
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc129/tasks/abc129_d"
+  },
+  {
+    "name": "RGB Coloring",
+    "tags": [
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc099/tasks/abc099_d"
+  },
+  {
+    "name": "Interval Scheduling 2",
+    "tags": [
+      "dp",
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc103/tasks/abc103_d"
+  },
+  {
+    "name": "Integer Preference",
+    "tags": [
+      "math",
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc161/tasks/abc161_e"
+  },
+  {
+    "name": "Walk",
+    "tags": [
+      "graphs",
+      "dfs"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc088/tasks/abc088_d"
+  },
+  {
+    "name": "Coloring Edges on Tree",
+    "tags": [
+      "dfs",
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc146/tasks/abc146_d"
+  },
+  {
+    "name": "Colorful Hats 2",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc113/tasks/abc113_d"
+  },
+  {
+    "name": "Remainder Minimization 2",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc090/tasks/arc091_b"
+  },
+  {
+    "name": "Brick Break",
+    "tags": [
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc153/tasks/abc153_e"
+  },
+  {
+    "name": "Piling Up",
+    "tags": [
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc166/tasks/abc166_f"
+  },
+  {
+    "name": "Cherry Pie",
+    "tags": [
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc019/tasks/abc019_4"
+  },
+  {
+    "name": "Placing Marbles",
+    "tags": [
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc081/tasks/arc086_a"
+  },
+  {
+    "name": "Two Arrays",
+    "tags": [
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc172/tasks/abc172_e"
+  },
+  {
+    "name": "Candies",
+    "tags": [
+      "dp"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc087/tasks/arc088_b"
+  },
+  {
+    "name": "Unreachable Nodes",
+    "tags": [
+      "graphs",
+      "dfs"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc142/tasks/abc142_e"
+  },
+  {
+    "name": "Permutation Check",
+    "tags": [
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc199/tasks/abc199_c"
+  },
+  {
+    "name": "Circuit Board",
+    "tags": [
+      "binary search",
+      "geometry"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc112/tasks/abc112_d"
+  },
+  {
+    "name": "Candy Shop",
+    "tags": [
+      "greedy",
+      "binary search"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc108/tasks/arc102_b"
+  },
+  {
+    "name": "Travel",
+    "tags": [
+      "dfs",
+      "graphs"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc187/tasks/abc187_f"
+  },
+  {
+    "name": "Products of Rectangles",
+    "tags": [
+      "combinatorics",
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc190/tasks/abc190_e"
+  },
+  {
+    "name": "Digit Sum Replace",
+    "tags": [
+      "dp",
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc149/tasks/abc149_e"
+  },
+  {
+    "name": "Multiplication 3",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc169/tasks/abc169_c"
+  },
+  {
+    "name": "Multiset Mean",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc138/tasks/abc138_e"
+  },
+  {
+    "name": "Totient Extreme",
+    "tags": [
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc177/tasks/abc177_e"
+  },
+  {
+    "name": "K-th Excluded",
+    "tags": [
+      "binary search"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc146/tasks/abc146_e"
+  },
+  {
+    "name": "Tree Burning",
+    "tags": [
+      "graphs",
+      "dfs",
+      "trees"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc160/tasks/abc160_d"
+  },
+  {
+    "name": "GCD on Blackboard",
+    "tags": [
+      "math",
+      "greedy"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc125/tasks/abc125_c"
+  },
+  {
+    "name": "Snuke Numbers",
+    "tags": [
+      "math",
+      "number theory"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc166/tasks/abc166_e"
+  },
+  {
+    "name": "Range Set Query",
+    "tags": [
+      "segment tree",
+      "data structures"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc174/tasks/abc174_f"
+  },
+  {
+    "name": "Easy Linear Programming",
+    "tags": [
+      "math",
+      "linear programming"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc167/tasks/abc167_e"
+  },
+  {
+    "name": "Lunar New Year and a Wander",
+    "tags": [
+      "graphs",
+      "dfs"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc151/tasks/abc151_f"
+  },
+  {
+    "name": "Flipping Signs",
+    "tags": [
+      "greedy",
+      "math"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc125/tasks/abc125_d"
+  },
+  {
+    "name": "Snuke Prime",
+    "tags": [
+      "math",
+      "number theory"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc149/tasks/abc149_d"
+  },
+  {
+    "name": "Reachable Strings",
+    "tags": [
+      "dp",
+      "strings"
+    ],
+    "platforms": [
+      "AtCoder"
+    ],
+    "level": "Hard",
+    "link": "https://atcoder.jp/contests/abc146/tasks/abc146_f"
+  }
+]

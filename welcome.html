@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome</title>
+<style>
+    /* Reset CSS */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('image/pic_1.jpg');
+        background-size: cover;
+    }
+
+    .title {
+        font-weight: 600; /* Adjust font weight to your preference */
+        font-family: 'Arial', sans-serif; /* Use a common font */
+        text-transform: capitalize; /* Convert text to capitalize for emphasis */
+        letter-spacing: 1px; /* Add some letter spacing for clarity */
+    }
+
+    
+    /* Navbar styles */
+    .navbar {
+        background-color: rgba(0, 0, 0, 1); /* non-transparent black */
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        z-index: 999; /* Ensure navbar is on top */
+    }
+    
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 0 10px;
+        padding: 8px 12px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+    
+    .navbar a:hover {
+        background-color: rgba(255, 255, 255, 0.1); /* Transparent white on hover */
+    }
+
+    /* Add cursor style for login and signup buttons */
+    #loginBtn,
+    #signupBtn {
+        cursor: pointer; /* Set cursor to pointer on hover */
+    }
+
+    .registration-message {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #28a745; /* Green background */
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        display: none; /* Initially hidden */
+    }
+
+    /* Main content */
+    .main-content {
+        padding-top: 60px; /* Adjust this value according to navbar height */
+    }
+
+    /* Modal styles */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+        transition: opacity 0.3s ease-out; /* Smooth transition effect */
+        opacity: 1; /* Initially set opacity to 1 */
+    }
+
+    .modal-content {
+        background-color: #111; /* Darkened black */
+        color: #fff;
+        margin: 10% auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        animation: modal-show 0.3s ease-out;
+        max-width: 400px;
+    }
+
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    @keyframes modal-show {
+        from { opacity: 0; transform: translateY(-50px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .modal-content h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .modal-content form {
+        text-align: center;
+    }
+
+    .modal-content label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    .modal-content input[type="text"],
+    .modal-content input[type="email"],
+    .modal-content input[type="password"],
+    .modal-content input[type="submit"] {
+        width: calc(100% - 22px); /* Adjusted width */
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        border: 1px solid #333; /* Darkened border */
+        font-size: 16px;
+        background-color: #333; /* Darkened background */
+        color: #fff;
+    }
+
+    .modal-content input[type="submit"] {
+        background-color: #000;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .modal-content input[type="submit"]:hover {
+        background-color: #444;
+    }
+
+    /* Error message */
+    .error-message {
+        color: #ff0000;
+        margin-top: 5px;
+    }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+    <a href="welcome.html"><span class="title">Problem Repository and Recommendation System</span></a>
+    <div>
+        <a id="loginBtn">Login</a>
+        <a id="signupBtn">Signup</a>
+    </div>
+</div>
+
+<div class="main-content">
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <!-- Login form goes here -->
+            <form id="loginForm" action="home.html" method="GET">
+                <label for="email">Email:</label>
+                <input type="email" id="emailLogin" name="email"><br>
+                <label for="password">Password:</label>
+                <input type="password" id="passwordLogin" name="password"><br>
+                <span class="error-message" id="loginError"></span><br> <!-- Error message for login -->
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Signup</h2>
+            <!-- Signup form goes here -->
+            <form id="signupForm" action="#" method="GET" onsubmit="return validateSignupForm(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="nameSignup" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="emailSignup" name="email"><br>
+                <label for="password">Password:</label>
+                <input type="password" id="passwordSignup" name="password"><br>
+                <span class="error-message" id="signupError"></span><br> <!-- Error message for signup -->
+                <input type="submit" value="Signup">
+            </form>
+        </div>
+    </div>
+</div>
+
+<div id="registrationCompleteMessage" class="registration-message">Registration complete</div>
+
+<script>
+    // Get the modal elements
+    var loginModal = document.getElementById("loginModal");
+    var signupModal = document.getElementById("signupModal");
+
+    // Get the buttons that open the modals
+    var loginBtn = document.getElementById("loginBtn");
+    var signupBtn = document.getElementById("signupBtn");
+
+    // Get the <span> element that closes the modal
+    var closeBtns = document.getElementsByClassName("close");
+
+    // When the user clicks the button, open the modal
+    loginBtn.onclick = function() {
+        loginModal.style.display = "block";
+    }
+
+    signupBtn.onclick = function() {
+        signupModal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    for (var i = 0; i < closeBtns.length; i++) {
+        closeBtns[i].onclick = function() {
+            loginModal.style.display = "none";
+            signupModal.style.display = "none";
+        }
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == loginModal || event.target == signupModal) {
+            loginModal.style.display = "none";
+            signupModal.style.display = "none";
+        }
+    }
+
+    // Validate Login Form
+    function validateLoginForm() {
+        var email = document.getElementById("emailLogin").value;
+        var password = document.getElementById("passwordLogin").value;
+        var errorMessage = document.getElementById("loginError");
+
+        if (email.trim() === "" || password.trim() === "") {
+            errorMessage.textContent = "Name, email, and password are required.";
+            return false; // Prevents the form from submitting if fields are empty
+        }
+        // Here you can add validation logic if needed
+
+        // Always return false to prevent form submission
+        return true;
+    }
+
+    // Validate Signup Form
+    function validateSignupForm(event) {
+        event.preventDefault(); // Prevent default form submission behavior
+
+        var name = document.getElementById("nameSignup").value;
+        var email = document.getElementById("emailSignup").value;
+        var password = document.getElementById("passwordSignup").value;
+        var errorMessage = document.getElementById("signupError");
+
+        if (name.trim() === "" || email.trim() === "" || password.trim() === "") {
+            errorMessage.textContent = "Name, email, and password are required.";
+            return false; // Prevents the form from submitting if fields are empty
+        }
+        // Here you can add validation logic if needed
+
+        showRegistrationCompleteMessage();
+
+        return false; // Always return false to prevent form submission
+    }
+
+    function showRegistrationCompleteMessage() {
+        var registrationMessage = document.getElementById("registrationCompleteMessage");
+
+        // Reduce opacity to 0 to trigger the closing animation
+        signupModal.style.opacity = "0";
+
+        signupModal.style.display = "none";
+
+        // After a brief delay, show the registration complete message
+        setTimeout(function() {
+            // Show the registration complete message
+            registrationMessage.style.display = "block";
+
+            // Hide the message after a delay (e.g., 3 seconds)
+            setTimeout(function() {
+                registrationMessage.style.display = "none";
+            }, 3000); // Adjust the timeout duration as needed
+        }, 300); // Adjust the delay as needed
+    }
+</script>
+</body>
+</html>

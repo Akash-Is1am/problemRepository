@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Profile</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        padding-top: 20px;
+    }
+    .section {
+        width: 100%;
+        padding: 20px;
+        border-radius: 30px;
+        box-shadow: 0 2px 2px rgba(59, 54, 54, 0.7);
+        transition: transform 0.3s ease;
+        background-color: #0e2a41;
+        color: #fff;
+    }
+    .section:hover {
+        transform: translateY(1px);
+    }
+    .count-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    .count-box {
+        width: 30%;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(59, 54, 54, 0.5); /* Soft shadow */
+        transition: transform 0.3s ease;
+        background-color: #0f9c5a;
+        color: #fff;
+    }
+    .count-box:hover {
+        transform: translateY(5px);
+    }
+    .count-header {
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .count {
+        font-size: 36px;
+        text-align: center;
+    }
+    .edit-buttons {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    button:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+    .slide-section {
+        width: 80%;
+        margin: auto;
+    }
+    input[type="range"] {
+        width: 100%;
+        -webkit-appearance: none;
+        appearance: none;
+        height: 6px; /* Adjusted height of the slider track */
+        background: #e0b8b8; /* Adjusted background color of the slider track */
+        outline: none;
+        border-radius: 5px; /* Adjusted border radius of the slider track */
+        margin: 0;
+        padding: 0;
+    }
+    input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        background: #1ac444; /* color for the slider thumb */
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    input[type="range"]::-moz-range-thumb {
+        width: 20px;
+        height: 20px;
+        background: #038eff; /* color for the slider thumb */
+        border-radius: 50%;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <div id="navbar-container"></div> <!-- This is where the navbar will be inserted -->
+    <div class="container">
+        <div class="section">
+            <div class="slide-section" id="cppSection">
+                <label for="cppSlider">Rate Your Programming Language Skills (1-10):</label>
+                <input type="range" id="cppSlider" name="cppRating" min="1" max="10" value="5" onchange="updateSliderValue('cppSlider', 'cppRatingValue')">
+                <div id="cppRatingValue" class="slider-value">5</div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="slide-section" id="problemSolvingSection">
+                <label for="problemSolvingSlider">Rate Your Problem-solving Skills (1-10):</label>
+                <input type="range" id="problemSolvingSlider" name="problemSolvingRating" min="1" max="10" value="5" onchange="updateSliderValue('problemSolvingSlider', 'problemSolvingRatingValue')">
+                <div id="problemSolvingRatingValue" class="slider-value">5</div>
+            </div>
+        </div>
+        <div class="count-container">
+            <div class="count-box" id="easySection">
+                <div class="count-header">Easy Problems</div>
+                <div class="count" id="easyCount">00</div>
+                <div class="edit-buttons">
+                    <button onclick="decrementCount('easy')">-</button>
+                    <button onclick="incrementCount('easy')">+</button>
+                </div>
+            </div>
+            <div class="count-box" id="mediumSection">
+                <div class="count-header">Medium Problems</div>
+                <div class="count" id="mediumCount">00</div>
+                <div class="edit-buttons">
+                    <button onclick="decrementCount('medium')">-</button>
+                    <button onclick="incrementCount('medium')">+</button>
+                </div>
+            </div>
+            <div class="count-box" id="hardSection">
+                <div class="count-header">Hard Problems</div>
+                <div class="count" id="hardCount">00</div>
+                <div class="edit-buttons">
+                    <button onclick="decrementCount('hard')">-</button>
+                    <button onclick="incrementCount('hard')">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Function to fetch initial ratings from JSON file
+        function fetchInitialRatings() {
+            fetch('userdata.json')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('cppSlider').value = data.cpp;
+                    document.getElementById('problemSolvingSlider').value = data.problemSolving;
+                    document.getElementById('easyCount').innerHTML = data.easy;
+                    document.getElementById('mediumCount').innerHTML = data.medium;
+                    document.getElementById('hardCount').innerHTML = data.hard;
+
+                    // Update displayed values
+                    updateSliderValue('cppSlider', 'cppRatingValue');
+                    updateSliderValue('problemSolvingSlider', 'problemSolvingRatingValue');
+                })
+                .catch(error => console.error('Error fetching initial ratings:', error));
+        }
+
+        // Call fetchInitialRatings when the page loads
+        window.onload = fetchInitialRatings;
+
+        // Function to update displayed slider value
+        function updateSliderValue(sliderId, displayId) {
+            var slider = document.getElementById(sliderId);
+            var display = document.getElementById(displayId);
+            display.innerText = slider.value;
+
+            // Save the rating to JSON file
+            var section = sliderId.includes('cpp') ? 'cpp' : 'problemSolving'; // Extract section name from sliderId
+            var rating = slider.value;
+            updateServer(section, rating);
+        }
+
+        // Function to increment count
+        function incrementCount(section) {
+            var countElement = document.getElementById(section + 'Count');
+            var count = parseInt(countElement.innerText);
+            countElement.innerText = count + 1;
+            updateServer(section, count + 1);
+        }
+
+        // Function to decrement count
+        function decrementCount(section) {
+            var countElement = document.getElementById(section + 'Count');
+            var count = parseInt(countElement.innerText);
+            if (count > 0) {
+                countElement.innerText = count - 1;
+                updateServer(section, count - 1);
+            }
+        }
+
+        // Function to update server
+        function updateServer(section, newCount) {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', '/update-count', true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        console.log('Count updated successfully');
+                    } else {
+                        console.error('Failed to update count');
+                    }
+                }
+            };
+            // Construct the data object with section and count
+            var data = { section: section, count: newCount };
+
+            // Send the data as JSON string
+            xhr.send(JSON.stringify(data));
+        }
+    </script>
+    <script>
+        // Fetch and insert the navbar content
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('navbar-container').innerHTML = html;
+            })
+            .catch(error => console.error('Error fetching navbar:', error));
+    </script>
+</body>
+</html>
